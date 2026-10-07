@@ -1,0 +1,107 @@
+{
+  "emergencyGuidelines": [
+    {
+      "id": "cpr",
+      "category": "Medical / Life Support",
+      "title": "Adult & Pediatric CPR",
+      "urgency": "CRITICAL",
+      "summary": "Immediate life support for unresponsive victims not breathing normally.",
+      "steps": [
+        "Check scene safety: Ensure no live electrical wires, toxic fumes, or structural collapse danger.",
+        "Check responsiveness: Tap victim's collarbone firmly and shout 'Can you hear me?'.",
+        "Check breathing for 10 seconds: Look for chest rise. If absent or agonal gasping, begin CPR.",
+        "Hand placement: Place heel of one hand in center of victim's chest (lower half of breastbone), interlock other hand fingers.",
+        "Compressions: Push hard and fast at 100-120 beats/min (to rhythm of 'Stayin' Alive'). Depth: 5 to 6 cm (2 inches). Allow full chest recoil.",
+        "Cycle: 30 hard compressions followed by 2 rescue breaths (tilt head back, pinch nose, seal mouth). If untrained, perform continuous hands-only CPR."
+      ],
+      "proTips": [
+        "Do not stop CPR until AED arrives, victim starts moving, or responder is physically exhausted.",
+        "Switch compressor every 2 minutes to prevent compression fatigue."
+      ]
+    },
+    {
+      "id": "tourniquet",
+      "category": "Trauma / Bleeding",
+      "title": "Arterial Bleeding & Tourniquet",
+      "urgency": "CRITICAL",
+      "summary": "Life-saving technique for severe spurting or pooling limb hemorrhage.",
+      "steps": [
+        "Expose the wound: Cut or tear clothing to identify the exact origin of bleeding.",
+        "Direct pressure: Pack wound with clean gauze or cloth and apply direct two-handed bodyweight pressure.",
+        "If bleeding does not stop immediately: Apply emergency commercial tourniquet or improvised windlass 5-7 cm (2-3 inches) ABOVE wound (never directly over a joint).",
+        "Tighten strap until snug, then turn windlass rod until bright red arterial bleeding stops and distal pulse vanishes.",
+        "Lock windlass in clip and write exact time of application (e.g. 'T-14:22') on victim's forehead or tourniquet label."
+      ],
+      "proTips": [
+        "NEVER loosen or remove a tourniquet once applied in the field—only qualified surgical staff should release it.",
+        "Pain is normal; an effective tourniquet is extremely tight."
+      ]
+    },
+    {
+      "id": "collapse",
+      "category": "Urban Search & Rescue",
+      "title": "Building Collapse & Rubble Entrapment",
+      "urgency": "HIGH",
+      "summary": "Techniques for surviving while trapped under structural rubble and concrete debris.",
+      "steps": [
+        "Protect airways: Cover mouth and nose with cloth, shirt, or mask to prevent fatal dust and silica inhalation.",
+        "Do not panic or yell continuously: Shouting consumes precious oxygen and accelerates dehydration and dust inhalation.",
+        "Create survival pocket: If moving is possible, tuck into fetal position against rigid load-bearing furniture or solid structural pillars ('Triangle of Life').",
+        "Acoustic signaling: Tap rhythmically with a metal object, stone, or pipe in bursts of 3 (Universal SOS: TAP-TAP-TAP ... pause ... TAP-TAP-TAP) whenever hearing rescue equipment.",
+        "Conserve battery: Keep phone in battery-saver mode. Turn off non-essential wireless radios except BLE beacon."
+      ],
+      "proTips": [
+        "Rescuers stop machinery every 30 minutes for silence checks. Tap continuously when silence is heard."
+      ]
+    },
+    {
+      "id": "flood_evac",
+      "category": "Flood & Water Hazards",
+      "title": "Rising Floodwater Evacuation & Water Safety",
+      "urgency": "HIGH",
+      "summary": "Protocols for escaping flash floods, urban inundation, and storm surges.",
+      "steps": [
+        "Cut primary utilities: Switch off main electrical circuit breaker and gas line before water reaches electrical sockets.",
+        "Never enter moving water: As little as 15 cm (6 inches) of rapid water can knock an adult off their feet; 60 cm (2 feet) floats SUVs.",
+        "Vertical evacuation: Move to the highest accessible floor. Take water, emergency documents, and beacon.",
+        "Avoid attic traps: NEVER climb into a closed attic without an axe or roof escape hatch; trapped individuals can drown as water levels peak.",
+        "Submerged vehicle escape: Open window immediately before pressure equalization locks door. If jammed, break side window using pointed tool at glass corner."
+      ],
+      "proTips": [
+        "Floodwater carries dangerous sewage, chemical runoff, and submerged debris. Treat cuts immediately with antiseptic."
+      ]
+    },
+    {
+      "id": "water_purification",
+      "category": "Survival Logistics",
+      "title": "Emergency Water Purification",
+      "urgency": "MODERATE",
+      "summary": "Generating safe drinking water from contaminated surface sources.",
+      "steps": [
+        "Pre-filtration: Pour murky water through a folded clean cotton cloth or bandanna to remove silt and particulates.",
+        "Boiling (Gold Standard): Bring water to a vigorous rolling boil for at least 1 full minute (3 minutes at high altitude).",
+        "Disinfection with Unscented Household Bleach: Add 2 drops of standard 6-8% household bleach per 1 Liter of clear water (4 drops if cloudy). Mix and wait 30 minutes. Water should have faint chlorine odor.",
+        "Solar SODIS Method: Fill clear PET plastic bottles and place in direct sunlight on metal roof for minimum 6 hours to deactivate pathogens via UV."
+      ],
+      "proTips": [
+        "Never drink floodwater, radiator fluid, or seawater under any circumstances."
+      ]
+    },
+    {
+      "id": "hypothermia",
+      "category": "Exposure / Weather",
+      "title": "Severe Hypothermia & Cold Shock",
+      "urgency": "HIGH",
+      "summary": "Preventing and reversing core body temperature drop in wet, flooded environments.",
+      "steps": [
+        "Remove wet clothing: Strip soaked fabric immediately and replace with dry blankets, space foil sheets, or dry layers.",
+        "Insulate from ground: Lay victim on waterproof tarp, cardboard, or foliage—direct ground contact leaches body heat rapidly.",
+        "Rewarm the core first: Apply warm compress or skin-to-skin contact to chest, neck, and groin (never extremities first, which causes cold-blood heart shock).",
+        "Do not rub frostbitten limbs: Vigorous friction causes permanent tissue damage."
+      ],
+      "proTips": [
+        "Provide warm sweetened broth or water only if the victim is fully conscious and capable of swallowing."
+      ]
+    }
+  ]
+}

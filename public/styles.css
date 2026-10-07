@@ -1,0 +1,181 @@
+/* GuardianAI Standalone Emergency Mobile UI Stylesheet */
+:root {
+  --bg-primary: #060913;
+  --bg-surface: #0f172a;
+  --bg-card: #090d16;
+  --border-color: #1e293b;
+  --crimson: #ef4444;
+  --amber: #f59e0b;
+  --teal: #06b6d4;
+  --green: #10b981;
+  --text-primary: #f8fafc;
+  --text-muted: #94a3b8;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+/* App Wrapper */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+  background: var(--bg-primary);
+  position: relative;
+  overflow: hidden;
+  border-left: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
+}
+
+.desktop-mode .app-container {
+  max-width: 100%;
+  border: none;
+}
+
+/* Status Bar */
+.status-bar {
+  height: 38px;
+  background: #02040a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  font-size: 11px;
+  font-family: monospace;
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--border-color);
+  z-index: 40;
+}
+
+.status-time {
+  font-weight: bold;
+  color: #fff;
+}
+
+.status-pill {
+  width: 60px;
+  height: 12px;
+  background: #0f172a;
+  border-radius: 12px;
+  border: 1px solid #1e293b;
+}
+
+.status-telemetry {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Header */
+.app-header {
+  background: #090d16;
+  border-bottom: 1px solid var(--border-color);
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.brand-badge {
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.brand-badge span {
+  color: var(--amber);
+}
+
+/* Screen Panels */
+.screen-panel {
+  display: none;
+  flex: 1;
+  overflow-y: auto;
+  padding: 12px;
+  flex-direction: column;
+  gap: 12px;
+}
+.screen-panel.active {
+  display: flex;
+}
+
+/* Cards */
+.card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  padding: 14px;
+}
+
+/* Buttons */
+.btn-emergency {
+  background: linear-gradient(135deg, #ef4444, #b91c1c);
+  color: #fff;
+  border: none;
+  border-radius: 14px;
+  padding: 14px;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 12px;
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-shadow: 0 10px 15px -3px rgba(239, 68, 68, 0.4);
+}
+
+/* Bottom Nav */
+.bottom-nav {
+  height: 60px;
+  background: #04060c;
+  border-top: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 30;
+}
+
+.nav-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  font-size: 10px;
+  font-family: monospace;
+  color: var(--text-muted);
+  background: none;
+  border: none;
+  cursor: pointer;
+  flex: 1;
+  padding: 6px 0;
+}
+.nav-tab.active {
+  color: var(--amber);
+  font-weight: bold;
+}
+
+/* Map */
+#map-viewport {
+  width: 100%;
+  height: 100%;
+  background: #060913;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "GuardianAI – Intelligent Disaster Response Ecosystem",
+  "description": "Offline-first intelligent disaster response ecosystem with triage priority scoring, mesh store-and-forward relay, dynamic hazard mapping, and tactical coordination.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
